@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trenton Henderson - Home</title>
-  <link rel="stylesheet" href="styles.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Trenton Henderson - Home</title>
+ <link rel="stylesheet" href="styles.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </head>
 <body>
 
 <header class="header">
-  <h1 class="header-title">Trenton Henderson</h1>
+ <h1 class="header-title">Trenton Henderson</h1>
+ <div class="profile-picture">
+  <img src="profile_picture.jpg" alt="Trenton Henderson" class="profile-image">
+ </div>
+ <div class="welcome-message">
+  <h2>Welcome to My Website!</h2>
+  <p>Explore my journey as a junior developer, projects, updates, and insights. Connect and learn with me!</p>
+ </div>
 </header>
 
 <nav class="navbar">
-  <a href="index.html" class="navbar-link">Home</a>
-  <a href="updates.html" class="navbar-link">Updates</a>
-  <a href="about.html" class="navbar-link">About Me</a>
+ <a href="index.html" class="navbar-link">Home</a>
+ <a href="updates.html" class="navbar-link">Updates</a>
+ <a href="about.html" class="navbar-link">About Me</a>
 </nav>
 
 <div class="socials">
-  <a href="https://twitter.com/Trenton_Isiah99" class="social-link">Twitter</a>
-  <a href="https://github.com/tredudat" class="social-link">GitHub</a>
+ <a href="https://twitter.com/Trenton_Isiah99" class="social-link">Twitter</a>
+ <a href="https://github.com/tredudat" class="social-link">GitHub</a>
 </div>
 
 <div class="content">
-  <!-- Content will be dynamically loaded here -->
+ <!-- Content will be dynamically loaded here -->
+</div>
+
+<div class="big-picture">
+ <img src="big_picture.jpg" alt="Big Picture">
 </div>
 
 <footer class="footer">
-  &copy; 2024 Trenton Henderson. All rights reserved.
+ &copy; 2024 Trenton Henderson. All rights reserved.
 </footer>
 
+<script>
+ gsap.to(".profile-image", { duration: 2, x: 100, opacity: 1, rotation: 360 });
+ gsap.to(".big-picture img", { duration: 2, y: -100, opacity: 1, scale: 1 });
+</script>
 <script src="script.js"></script>
 </body>
 </html>
