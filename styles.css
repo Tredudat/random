@@ -1,100 +1,76 @@
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  body {
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-  }
-  
-  /* Container */
-  .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  /* Navbar Styles */
-  .navbar {
-    background-color: #333;
-    color: #ffffff;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0 15px;
-  }
-  
-  .navbar a:hover {
-    background-color: #555;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background: url('https://twitter.com/Trenton_Isiah99/photo') no-repeat center center/cover;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 0 20px;
-  }
-  
-  .hero h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  /* Cards */
-  .card {
-    background: #ffffff;
-    border: 1px solid #e6e6e6;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card:hover {
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Button Styles */
-  .btn {
-    display: inline-block;
-    background: #333;
-    color: #ffffff;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #555;
-  }
-  
-  /* Media Queries */
-  @media (max-width: 768px) {
-    .container {
-      width: 95%;
-    }
-  
-    .hero {
-      height: 300px;
-    }
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Global Styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-title {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #ffffff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.navbar-link:hover {
+  background-color: #555;
+}
+
+.socials {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.social-link {
+  padding: 0 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
   
