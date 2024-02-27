@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # Trenton Henderson's First Website
 
 Welcome to the repository for my personal website! I'm Trent, a passionate and creative US Navy Veteran and Computer Science student at Park University. This website is a canvas for my technical journey, showcasing projects, ideas, and milestones as I explore the world of software development.
