@@ -1,68 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trenton Henderson - Updates</title>
-  <link rel="stylesheet" href="styles.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Trenton Henderson - Updates</title>
+ <link rel="stylesheet" href="styles.css">
+ <style>
+  .project {
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   padding: 20px;
+   margin-bottom: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .calendar {
+   background-color: #f2f2f2;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ </style>
 </head>
 <body>
 
 <header class="header">
-  <h1 class="header-title">Trenton Henderson</h1>
+ <h1 class="header-title">Trenton Henderson</h1>
 </header>
 
 <nav class="navbar">
-  <a href="index.html" class="navbar-link">Home</a>
-  <a href="updates.html" class="navbar-link">Updates</a>
-  <a href="about.html" class="navbar-link">About Me</a>
-  <a href="https://twitter.com/Trenton_Isiah99" class="navbar-link">Twitter</a>
-  <a href="https://github.com/tredudat" class="navbar-link">GitHub</a>
+ <a href="index.html" class="navbar-link">Home</a>
+ <a href="updates.html" class="navbar-link">Updates</a>
+ <a href="about.html" class="navbar-link">About Me</a>
+ <a href="https://twitter.com/Trenton_Isiah99" class="navbar-link">Twitter</a>
+ <a href="https://github.com/tredudat" class="navbar-link">GitHub</a>
 </nav>
 
 <div class="content">
-  <div class="post">
-    <h2 class="post-title">Setup Website</h2>
-    <p class="post-description">This project is all about creating my own space on the web. It's a work in progress where I plan to add a bug fixes checklist, a merchandise tab, more content showcasing my art, articles I've written, and regular updates on website builds and fixes. It's about future-proofing my site and setting goals for what it will become.</p>
-  </div>
+ <div class="post">
+  <h2 class="post-title">Setup Website</h2>
+  <p class="post-description">This project is all about creating my own space on the web. It's a work in progress where I plan to add a bug fixes checklist, a merchandise tab, more content showcasing my art, articles I've written, and regular updates on website builds and fixes. It's about future-proofing my site and setting goals for what it will become.</p>
+ </div>
 
-  <!-- Additional posts -->
-  <div class="post">
-    <h2 class="post-title">Working on Good Morning/Goodnight Twitter Bot</h2>
-    <img src="https://lh3.googleusercontent.com/bard/ADjfeTclHLKls7JISH7TjyhGagzoyVpKvgfkGwUG4M-XTgd5U4lhPxk025sapWz9gRtiywjSu8Ic2WHv40OLwJxXwzv0hNHIsZyZ-QmfKx4CQqL6hy8p4a61LRhqacEIjhc80APg-Fc94bgNDJe-3Mu-tbk_XxxveUNnskf0m3sLqqQKco5UJRbuQfF8sOjfnk48nNgkjui4atUDQy14GxaUPV45_FFHIh-CQshghaFLQhaz53SJTAcOSnRWhDiRGA52LMk98IDq01iuwdbmTE32fsca2ZF7xFh5o4hZZDTztl8zKnnjRojUcdcjMu2ALQlsyKNVx7g7R08D0Q_F_dw" alt="Good Morning/Goodnight Twitter Bot" class="post-image">
-    <ul class="checklist">
-      <li>Create a Twitter Developer account</li>
-      <li>Set up a Twitter App</li>
-      <li>Write code to post "Good Morning" and "Goodnight" tweets</li>
-      <li>Schedule tweets using a cron job or a scheduling library</li>
-    </ul>
-  </div>
+ <!-- Additional posts -->
+ <div class="project">
+  <h2>Project 1: Working on Good Morning/Goodnight Twitter Bot</h2>
+  <img src="https://lh3.googleusercontent.com/bard/ADjfeTclHLKls7JISH7TjyhGagzoyVpKvgfkGwUG4M-XTgd5U4lhPxk025sapWz9gRtiywjSu8Ic2WHv40OLwJxXwzv0hNHIsZyZ-QmfKx4CQqL6hy8p4a61LRhqacEIjhc80APg-Fc94bgNDJe-3Mu-tbk_XxxveUNnskf0m3sLqqQKco5UJRbuQfF8sOjfnk48nNgkjui4atUDQy14GxaUPV45_FFHIh-CQshghaFLQhaz53SJTAcOSnRWhDiRGA52LMk98IDq01iuwdbmTE32fsca2ZF7xFh5o4hZZDTztl8zKnnjRojUcdcjMu2ALQlsyKNVx7g7R08D0Q_F_dw" alt="Good Morning/Goodnight Twitter Bot" class="post-image">
+  <ul class="checklist">
+   <li>Create a Twitter Developer account</li>
+   <li>Set up a Twitter App</li>
+   <li>Write code to post "Good Morning" and "Goodnight" tweets</li>
+   <li>Schedule tweets using a cron job or a scheduling library</li>
+  </ul>
+ </div>
 
-  <div class="post">
-    <h2 class="post-title">Working on Tech Updates Twitter Bot</h2>
-    <img src="https://lh3.googleusercontent.com/bard/ADjfeTdlAzFPDxzxqBv8qt2LlZh8dvnqcy4S7R4Rj_NXAjywQta3Huvv8zC8MTu9ld6MUiCSx6i-I_M4F34yiVHWAi-x2nSdhWBJO4wxhhl5tcRrJ977YFV0LllBAWQitkcrn6_KmpICZlcRObiYzkRo0NLXJMk2OauuBnq40OMPpHJvonLuGV-vu0r4CXuoPyn60ud-FdmLebkgmA19MCgnHhzafYtDcdFwOI0Ijm9aHHbVlzcCjBifDzGXer8zgQqKGQeSgT4bADY_0Be0-iCOMVfzsadeTqDNalk732ZvYVuM7dIDb-LgA1lITWm1FeofM6WEJo5tF3vFhRBkCQ" alt="Tech Updates Twitter Bot" class="post-image">
-    <ul class="checklist">
-      <li>Integrate with GitHub API or website RSS feed</li>
-      <li>Fetch updates automatically</li>
-      <li>Format updates into tweets</li>
-      <li>Post tweets at scheduled intervals</li>
-    </ul>
-  </div>
+ <div class="project">
+  <h2>Project 2: Working on Tech Updates Twitter Bot</h2>
+  <img src="https://lh3.googleusercontent.com/bard/ADjfeTdlAzFPDxzxqBv8qt2LlZh8dvnqcy4S7R4Rj_NXAjywQta3Huvv8zC8MTu9ld6MUiCSx6i-I_M4F34yiVHWAi-x2nSdhWBJO4wxhhl5tcRrJ977YFV0LllBAWQitkcrn6_KmpICZlcRObiYzkRo0NLXJMk2OauuBnq40OMPpHJvonLuGV-vu0r4CXuoPyn60ud-FdmLebkgmA19MCgnHhzafYtDcdFwOI0Ijm9aHHbVlzcCjBifDzGXer8zgQqKGQeSgT4bADY_0Be0-iCOMVfzsadeTqDNalk732ZvYVuM7dIDb-LgA1lITWm1FeofM6WEJo5tF3vFhRBkCQ" alt="Tech Updates Twitter Bot" class="post-image">
+  <ul class="checklist">
+   <li>Integrate with GitHub API or website RSS feed</li>
+   <li>Fetch updates automatically</li>
+   <li>Format updates into tweets</li>
+   <li>Post tweets at scheduled intervals</li>
+  </ul>
+ </div>
 
-  <div class="post">
-    <h2 class="post-title">Working on Website Updates</h2>
-    <img src="website_updates.jpg" alt="Website Updates" class="post-image">
-    <ul class="checklist">
-      <li>Add pictures and videos</li>
-      <li>Create a merchandise button</li>
-      <li>Add a portfolio section for art</li>
-      <li>Implement user authentication for exclusive content</li>
-    </ul>
-  </div>
+ <div class="project">
+  <h2>Project 3: Working on Website Updates</h2>
+  <img src="website_updates.jpg" alt="Website Updates" class="post-image">
+  <ul class="checklist">
+   <li>Add pictures and videos</li>
+   <li>Create a merchandise button</li>
+   <li>Add a portfolio section for art</li>
+   <li>Implement user authentication for exclusive content</li>
+  </ul>
+ </div>
+
+ <div class="calendar">
+  <!-- Calendar content here -->
+ </div>
 </div>
 
 <footer class="footer">
-  &copy; 2024 Trenton Henderson. All rights reserved.
+ &copy; 2024 Trenton Henderson. All rights reserved.
 </footer>
 
 <script src="script.js"></script>
