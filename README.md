@@ -21,6 +21,7 @@ I believe in the power of connectivity and the collaborative nature of the tech 
 
 - Follow me on Twitter: https://twitter.com/Trenton_Isiah99 for quick updates, thoughts, and interactions.
 - Check out my GitHub: https://github.com/tredudat for a look into my coding adventures and contributions.
+- Personal Website: https://tskatestech.com for a look into my personal projects.
 
 ## Contributions and Feedback ♥
 
